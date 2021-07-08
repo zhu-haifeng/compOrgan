@@ -1,0 +1,93 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri May 21 20:23:34 2021
+| Host         : PA45 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    26 |
+| Unused register locations in slices containing registers |   107 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            1 |
+|      6 |            1 |
+|      8 |            4 |
+|    16+ |           20 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |            1564 |          397 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             103 |           43 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------+----------------------------+------------------+----------------+
+|  Clock Signal  |        Enable Signal        |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++----------------+-----------------------------+----------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                             |                            |                2 |              4 |
+|  clk_IBUF_BUFG | u_cordic/vld                | u_cordic/rst_n             |                2 |              6 |
+|  clk_IBUF_BUFG | u_slave/E[0]                | u_cordic/rst_n             |                7 |              8 |
+|  clk_IBUF_BUFG | u_slave/reg_wr_reg_1[0]     | u_cordic/rst_n             |                2 |              8 |
+|  clk_IBUF_BUFG | u_slave/reg_wr_reg_2[0]     | u_cordic/rst_n             |                3 |              8 |
+|  clk_IBUF_BUFG | u_slave/reg_wr_reg_0[0]     | u_cordic/rst_n             |                2 |              8 |
+|  clk_IBUF_BUFG |                             | u_slave/d_data[31]_i_2_n_0 |                5 |             32 |
+|  clk_IBUF_BUFG | u_slave/reg_rd_reg_0[0]     | u_master/rst_n             |               12 |             32 |
+|  clk_IBUF_BUFG | u_cordic/result[31]_i_1_n_0 | u_cordic/rst_n             |               15 |             33 |
+|  clk_IBUF_BUFG |                             | u_master/rst_n             |               14 |             51 |
+|  clk_IBUF_BUFG |                             | u_cordic/x15[31]_i_1_n_0   |               17 |             65 |
+|  clk_IBUF_BUFG |                             | u_cordic/x16[31]_i_1_n_0   |               20 |             82 |
+|  clk_IBUF_BUFG |                             | u_cordic/x3[31]_i_1_n_0    |               21 |             84 |
+|  clk_IBUF_BUFG |                             | u_cordic/x14[31]_i_1_n_0   |               23 |             89 |
+|  clk_IBUF_BUFG |                             | u_cordic/x10[31]_i_1_n_0   |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x11[31]_i_1_n_0   |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x12[31]_i_1_n_0   |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x6[31]_i_1_n_0    |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x13[31]_i_1_n_0   |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x5[31]_i_1_n_0    |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x7[31]_i_1_n_0    |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x8[31]_i_1_n_0    |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/x9[31]_i_1_n_0    |               23 |             90 |
+|  clk_IBUF_BUFG |                             | u_cordic/z3[11]_i_1_n_0    |               23 |             96 |
+|  clk_IBUF_BUFG |                             | u_cordic/rst_n             |               29 |            109 |
+|  clk_IBUF_BUFG |                             | u_cordic/z0[31]_i_2_n_0    |               38 |            146 |
++----------------+-----------------------------+----------------------------+------------------+----------------+
+
+

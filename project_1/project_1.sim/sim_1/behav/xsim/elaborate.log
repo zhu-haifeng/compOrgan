@@ -1,0 +1,20 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto af26f93e55594ff6ac1c98d070f18ee7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/div_rr.v" Line 1. Module div_rr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/div_as.v" Line 1. Module div_as doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div_rr
+Compiling module xil_defaultlib.div_as
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_sim_behav

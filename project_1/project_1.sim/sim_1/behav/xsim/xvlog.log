@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/div_as.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_as
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/div_rr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_rr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol busy1, assumed default net type wire [D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/top.v:22]
+INFO: [VRFC 10-2458] undeclared symbol busy2, assumed default net type wire [D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sources_1/new/top.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/assignment/computerOrganization_LabWork/project_1/project_1.srcs/sim_1/new/top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_sim

@@ -1,0 +1,11 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sim_1/new/top_sim.v,1622208251,verilog,,,,top_sim,,,,,,,,
+D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/cordic.v,1621591911,verilog,,D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/cpu.v,,cordic,,,,,,,,
+D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/cpu.v,1621591901,verilog,,D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/master.v,,cpu,,,,,,,,
+D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/master.v,1622208332,verilog,,D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/slave.v,,master,,,,,,,,
+D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/slave.v,1622192121,verilog,,D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/top.v,,slave,,,,,,,,
+D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sources_1/new/top.v,1621591869,verilog,,D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.srcs/sim_1/new/top_sim.v,,top,,,,,,,,

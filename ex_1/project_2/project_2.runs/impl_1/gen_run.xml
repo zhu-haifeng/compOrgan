@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1621051045">
+  <File Type="BITSTR-BMM" Name="app_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="app_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="app_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="app_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="app.tcl"/>
+  <File Type="OPT-TIMING" Name="app_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="app_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="app_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="app_reports.tcl"/>
+  <File Type="OPT-DRC" Name="app_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="app.hwdef"/>
+  <File Type="PWROPT-DCP" Name="app_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="app_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="app_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="app_placed.dcp"/>
+  <File Type="PLACE-IO" Name="app_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="app_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="app_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="app_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="app_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="app_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="app_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="app_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="app_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="app.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="app_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="app_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="app_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="app.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="app_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="app_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="app_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="app_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="app_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="app_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="app_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="app.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="app_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="app_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="app_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="app_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="app_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="app_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="app_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="app_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="app_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="app_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="app_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="app_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="app_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="app_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="app_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="app_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="app_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="app_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="app_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="app_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="app_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="app.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="app_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="app.rbt"/>
+  <File Type="BITSTR-NKY" Name="app.nky"/>
+  <File Type="PDI-FILE" Name="app.pdi"/>
+  <File Type="RCFI_FILE" Name="app.rcfi"/>
+  <File Type="CFI_FILE" Name="app.cfi"/>
+  <File Type="RNPI_FILE" Name="app.rnpi"/>
+  <File Type="NPI_FILE" Name="app.npi"/>
+  <File Type="RBD_FILE" Name="app.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="app.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="app.sysdef"/>
+  <File Type="BG-BGN" Name="app.bgn"/>
+  <File Type="BG-DRC" Name="app.drc"/>
+  <File Type="RDI-RDI" Name="app.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1.srcs/sources_1/new/display.v"/>
+        <Attr Name="ImportTime" Val="1620386492"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/div_as.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1.srcs/sources_1/new/div_as.v"/>
+        <Attr Name="ImportTime" Val="1620569226"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/div_rr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1.srcs/sources_1/new/div_rr.v"/>
+        <Attr Name="ImportTime" Val="1620569221"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1.srcs/sources_1/new/top.v"/>
+        <Attr Name="ImportTime" Val="1619665896"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/app.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TESTdisplay.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="app"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pin.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1.srcs/constrs_1/new/pin.xdc"/>
+        <Attr Name="ImportTime" Val="1620388622"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

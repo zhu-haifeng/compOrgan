@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jun  9 20:30:50 2021
+# Process ID: 16784
+# Current directory: D:/assignment/computerOrganization_LabWork/ex_3/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7096 D:\assignment\computerOrganization_LabWork\ex_3\project_2\project_2.xpr
+# Log file: D:/assignment/computerOrganization_LabWork/ex_3/project_2/vivado.log
+# Journal file: D:/assignment/computerOrganization_LabWork/ex_3/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/assignment/computerOrganization_LabWork/ex_3/project_2/project_2.xpr
+INFO: [Project 1-313] Project file moved from 'D:/190110716/project_2' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'c:/Users/Administrator/Desktop/init.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem' is locked:
+* Project containing IP 'blk_mem' is read-only. * IP definition 'Block Memory Generator (8.4)' for IP 'blk_mem' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [Project 1-229] Project 'project_2.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  9 23:16:02 2021...

@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon May 24 11:43:44 2021
+# Process ID: 10820
+# Current directory: D:/assignment/computerOrganization_LabWork/0521_2214/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14620 D:\assignment\computerOrganization_LabWork\0521_2214\project_1\project_1.xpr
+# Log file: D:/assignment/computerOrganization_LabWork/0521_2214/project_1/vivado.log
+# Journal file: D:/assignment/computerOrganization_LabWork/0521_2214/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/assignment/computerOrganization_LabWork/0521_2214/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source top_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source top_sim.tcl
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/top_sim/u_top/a_ready}} {{/top_sim/u_top/a_mask}} {{/top_sim/u_top/d_data}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim

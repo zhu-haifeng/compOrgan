@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/project_2/project_2.srcs/sim_1/new/testApp.v,1620646601,verilog,,,,testApp,,,,,,,,
+D:/project_2/project_2.srcs/sim_1/new/top_sim.v,1620566084,verilog,,,,top_sim,,,,,,,,
+D:/project_2/project_2.srcs/sources_1/new/app.v,1620575226,verilog,,D:/project_2/project_2.srcs/sources_1/new/display.v,,app,,,,,,,,
+D:/project_2/project_2.srcs/sources_1/new/display.v,1620386492,verilog,,D:/project_2/project_2.srcs/sources_1/new/div_as.v,,display,,,,,,,,
+D:/project_2/project_2.srcs/sources_1/new/div_as.v,1620569226,verilog,,D:/project_2/project_2.srcs/sources_1/new/div_rr.v,,div_as,,,,,,,,
+D:/project_2/project_2.srcs/sources_1/new/div_rr.v,1620569221,verilog,,D:/project_2/project_2.srcs/sources_1/new/top.v,,div_rr,,,,,,,,
+D:/project_2/project_2.srcs/sources_1/new/top.v,1620644900,verilog,,D:/project_2/project_2.srcs/sim_1/new/testApp.v,,top,,,,,,,,
